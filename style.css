@@ -1,4 +1,4 @@
-* {
+  * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -103,6 +103,25 @@ li {
 
 .hide {
   display: none;
+}
+@media screen and (max-width: 720px) {
+  .live-filter {
+    width: 30rem;
+  }
+  .search {
+    padding: 2rem 0;
+  }
+}
+@media screen and (max-width: 590px) {
+  .live-filter {
+    width: 25rem;
+  }
+  .user-data a {
+    /* color: black; */
+    overflow: scroll;
+    /* display: none; */
+    font-size: 12px;
+  }
 }
 /* .loader.show {
   display: block;
